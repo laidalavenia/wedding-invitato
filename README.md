@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<p align="center">
+   <h2 align="center">Wedding Invitation</h2>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="https://github.com/laidalavenia/wedding-invitato/issues"><img src="https://img.shields.io/github/issues/laidalavenia/Lovely-Sweet-Shop" alt="GitHub issues"></a>
+    <a href="https://github.com/laidalavenia/wedding-invitato"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/laidalavenia/wedding-invitato"></a>
+    <a href="https://github.com/laidalavenia/wedding-invitato/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/laidalavenia/wedding-invitato"></a>
+</p>
 
-## Available Scripts
+## Wedding Invitation
 
-In the project directory, you can run:
+The "wedding invitation" website is an online platform designed to celebrate and share the joy of a wedding. It features the wedding date, a gallery showcasing memorable moments of the couple, background music, and an option to send thoughtful gifts.
 
-### `npm start`
+## Deployment Website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://wedding-invitato.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+This website was developed using tech stack :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (using create-react-app)
+- Chakra UI (2.8.2 version)
 
-### `npm run build`
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+    git clone https://github.com/laidalavenia/wedding-invitato
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Go to the project directory
 
-### `npm run eject`
+```bash
+    cd wedding-invitato
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install depedencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+    npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+    npm start
+```
