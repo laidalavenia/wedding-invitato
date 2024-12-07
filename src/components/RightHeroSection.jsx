@@ -354,7 +354,13 @@ export const RightHeroSection = ({ backgroundImage, hashtag }) => {
                 Place & Time
               </Text>
 
-              <Text fontSize='4xl' fontFamily='serif' fontWeight='medium'>
+              <Text
+                fontSize='4xl'
+                fontFamily='serif'
+                fontWeight='medium'
+                align='center'
+                justify='center'
+              >
                 Holy Matrimony
               </Text>
 
@@ -599,7 +605,13 @@ export const RightHeroSection = ({ backgroundImage, hashtag }) => {
                 OUR SINCERE,
               </Text>
 
-              <Text fontSize='3xl' fontFamily='serif' fontWeight='medium'>
+              <Text
+                fontSize='3xl'
+                fontFamily='serif'
+                fontWeight='medium'
+                align='center'
+                justify='center'
+              >
                 TIFFANY & JARED
               </Text>
 
@@ -630,10 +642,20 @@ export const RightHeroSection = ({ backgroundImage, hashtag }) => {
                 <Text fontSize='sm' color='gray.600'>
                   Created with Love by Invitato
                 </Text>
-                <Text fontSize='sm' color='gray.600'>
+                <Text
+                  fontSize='sm'
+                  color='gray.600'
+                  align='center'
+                  justify='center'
+                >
                   Song by So Far, So Good - Don Williams
                 </Text>
-                <Text fontSize='sm' color='gray.600'>
+                <Text
+                  fontSize='sm'
+                  color='gray.600'
+                  align='center'
+                  justify='center'
+                >
                   © 2024 Tiffany & Jared. All Rights Reserved
                 </Text>
               </VStack>
